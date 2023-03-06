@@ -1,0 +1,45 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.first {
+    height: 900px;
+}
+
+.schoolemblem {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+
+.schoolname {
+    font-family: 'jsMath-cmbx10';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+}
+
+.schoolemblem {
+    width: 60px;
+    height: 60px;
+}
+
+.welcome {
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 53px;
+
+}
+
+.schoolimg {
+    background-image: url(img/school4.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
