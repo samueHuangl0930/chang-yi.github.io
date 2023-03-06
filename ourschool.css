@@ -236,23 +236,24 @@ img {
 }
 
 .Vision-box .box:nth-child(1) .bi {
-    color: #00E3E3;
+    color: #42DDFF;
+    ;
     font-size: 25px;
 }
 
 .Vision-box .box:nth-child(2) .bi {
-    color: #FF95CA;
+    color: #FE7DC9;
     font-size: 25px;
     margin-right: 20px;
 }
 
 .Vision-box .box:nth-child(3) .bi {
-    color: #46A3FF;
+    color: #1DCBC8;
     font-size: 25px;
 }
 
 .Vision-box .box:nth-child(4) .bi {
-    color: #FFE153;
+    color: #FECA01;
     font-size: 25px;
 }
 
