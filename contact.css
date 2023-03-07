@@ -21,6 +21,19 @@ header {
 
 }
 
+.container {
+    max-width: 960px;
+}
+
+.card-deck .card {
+    min-width: 220px;
+}
+
+header {
+    z-index: 100;
+
+}
+
 nav {
     background-color: white;
 }
@@ -76,10 +89,19 @@ nav {
     text-align: justify;
 }
 
+.nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .nav-item a {
-    color: #ADADAD;
-    font-weight: 800;
-    font-size: 22px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 53px;
+    color: rgba(0, 0, 0, 0.53);
     padding: 0 15px;
 }
 
@@ -103,6 +125,11 @@ img {
 
 .box {
     height: 20px;
+}
+
+.box img {
+    width: 120px;
+    height: 120px;
 }
 
 .ribbon .box:nth-child(1) {
@@ -305,5 +332,18 @@ footer .rectangle2 {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+}
+
+@media screen and (max-width:1038px) {
+    .navbar .container-fluid {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+}
+
+@media screen and (max-width:1013px) {
+    .nav-item {
+        margin-right: 0px !important;
     }
 }
