@@ -44,10 +44,12 @@ html {
     width: 12px;
     height: 10px;
 }
-.relevant-information img{
+
+.relevant-information img {
     width: 15px;
     height: 15px;
 }
+
 .container {
     max-width: 960px;
 }
@@ -188,11 +190,15 @@ img {
 .About-CYSH {
     background-color: #F0F0F0;
     width: 100%;
+    height: 347px;
 }
 
 .About-CYSH h1 {
     font-family: 'Kanit';
-    font-weight: bolder;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 53px;
 }
 
 .About {
@@ -219,6 +225,10 @@ img {
     font-weight: 400;
     font-size: 20px;
     line-height: 26px;
+}
+
+.Vision-CYSH {
+    padding-top: 4rem;
 }
 
 .arrow1 {
@@ -248,7 +258,6 @@ img {
 
 .Vision-box .box {
     height: 321px;
-    ;
     /* aspect-ratio: 1/1; */
 
 }
@@ -301,7 +310,7 @@ img {
 .location {
     background-image: url(img/back.png);
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center top;
     background-size: cover;
 }
 
@@ -339,6 +348,12 @@ img {
 .location strong {
     font-size: 40px;
     color: white;
+}
+
+.locationimgblock {
+    background-color: #9d9d9d;
+    width: 880px;
+    height: 560px;
 }
 
 .locationimg {
@@ -407,18 +422,21 @@ ul li:nth-child(3) img {
     font-size: 16px;
     line-height: 24px;
 } */
+.community img:hover {
+    cursor: pointer;
+}
 
-.community img:nth-child(1) {
+.communitygloball {
     width: 35px;
     height: 35px;
 }
 
-.community img:nth-child(2) {
-    width: 41px;
+.communityyt {
+    width: 45px;
     height: 30px;
 }
 
-.community img:nth-child(3) {
+.communityfb {
     width: 33px;
     height: 33px;
 }
@@ -476,5 +494,19 @@ ul li:nth-child(3) img {
 @media screen and (max-width:1013px) {
     .nav-item {
         margin-right: 0px !important;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .locationimgblock {
+        width: 770px;
+        height: 490px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .locationimgblock {
+        width: 440px;
+        height: 308px;
     }
 }

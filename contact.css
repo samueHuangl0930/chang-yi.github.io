@@ -287,6 +287,10 @@ ul li:nth-child(4) p img {
     max-width: 700px;
 }
 
+.community .circle:hover {
+    cursor: pointer;
+}
+
 .community .circle:nth-child(1) {
     background-color: #FEB1DF;
 
@@ -294,6 +298,7 @@ ul li:nth-child(4) p img {
 
 .community .circle:nth-child(1):hover {
     background-color: #FE7DC9;
+
 }
 
 .community .circle:nth-child(2) {

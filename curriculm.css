@@ -254,6 +254,8 @@ button img {
     font-size: 43px;
     line-height: 53px;
     text-align: center;
+    color: white;
+    width: 850px;
 }
 
 .circle {
@@ -370,18 +372,21 @@ ul li:nth-child(3) img {
     font-size: 16px;
     line-height: 24px;
 } */
+.community img:hover {
+    cursor: pointer;
+}
 
-.community img:nth-child(1) {
+.communitygloball {
     width: 35px;
     height: 35px;
 }
 
-.community img:nth-child(2) {
-    width: 41px;
+.communityyt {
+    width: 45px;
     height: 30px;
 }
 
-.community img:nth-child(3) {
+.communityfb {
     width: 33px;
     height: 33px;
 }
@@ -413,5 +418,11 @@ ul li:nth-child(3) img {
 @media screen and (max-width:1013px) {
     .nav-item {
         margin-right: 0px !important;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .text p {
+        width: 600px;
     }
 }

@@ -6,8 +6,22 @@ body {
     padding: 0px;
 }
 
-.first {
-    height: 900px;
+.carousel-inner {
+    max-height: 1200px;
+}
+
+.schoolimg {
+    width: 100%;
+    /* height: 900px; */
+}
+
+
+.title {
+    width: fit-content;
+    position: absolute;
+    top: 110px;
+    left: 105px;
+    z-index: 2;
 }
 
 .schoolemblem {
@@ -37,9 +51,438 @@ body {
 
 }
 
-.schoolimg {
-    background-image: url(img/school4.png);
+.arrow {
+    width: 166px;
+    margin: 0 10px;
+}
+
+.carousel-item {
+    position: relative;
+    right: 0px;
+}
+
+.carousel-item img {
+    min-height: 500px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.menu {
+    /* background-color: aliceblue; */
+    width: 100%;
+    z-index: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    /* grid-auto-rows: 200px; */
+    position: relative;
+    top: -160px;
+
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.box {
+    aspect-ratio: 1/1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:hover {
+    opacity: 0.7;
+}
+
+.box img {
+    height: 110px;
+    margin-bottom: 15px;
+}
+
+.box p {
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.box:nth-child(1) {
+    background-color: #42DDFF;
+}
+
+.box:nth-child(2) {
+    background-color: #1DCBC8;
+}
+
+.box:nth-child(3) {
+    background-color: #FF9900;
+}
+
+.box:nth-child(4) {
+    background-color: #FECA01;
+}
+
+.box:nth-child(5) {
+    background-color: #FE7DC9;
+}
+
+.box:nth-child(6) {
+    background-color: #46A3FF;
+}
+
+.video {
+    background-image: url(img/home.png);
     background-repeat: no-repeat;
     background-position: center top;
-    background-size: cover;
+    background-size: 100% 100%;
+    position: relative;
+    top: -70px;
+}
+
+.video .large {}
+
+.video .large iframe {
+    box-shadow: 0 0 0 0,
+        10px 0 10px 3px #FECA01,
+        0 10px 10px 3px #FECA01,
+        0 0 0 0;
+    ;
+    margin-bottom: 100px;
+}
+
+.video .small {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.fb-banner {
+    background-color: #FFED97;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    margin-top: -70px;
+}
+
+.search {
+    width: 550px;
+    min-width: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fb {
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+}
+
+.search a {
+    text-decoration: none;
+    color: black;
+}
+
+.search a:hover {
+    text-decoration: none;
+    color: #2894FF;
+}
+
+.search .imgblock {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search .imgblock img {
+    height: 55px;
+    width: 55px;
+    object-fit: cover;
+
+}
+
+.search .searchbox {
+    background-color: white;
+    border-radius: 30px;
+    width: 470px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.searchbox p {
+    font-family: 'Noto Sans Bengali UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.searchbox img {
+    width: 29px;
+    height: 29px;
+    margin-left: 10px;
+}
+
+
+
+footer {
+    background-color: #7B7B7B;
+    padding: 0px 20px 5px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    flex-direction: column;
+    list-style-position: outside;
+    list-style: none;
+    width: 350px;
+}
+
+footer p {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    /* background-color: #00E3E3; */
+}
+
+li img {
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+}
+
+ul li:nth-child(3) img {
+    margin-right: 10px;
+    width: 11px;
+    height: 15px;
+}
+
+/*footer li p {
+    color: white;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+} */
+
+.community img:nth-child(1) {
+    width: 35px;
+    height: 35px;
+}
+
+.community img:nth-child(2) {
+    width: 41px;
+    height: 30px;
+}
+
+.community img:nth-child(3) {
+    width: 33px;
+    height: 33px;
+}
+
+@media screen and (max-width:1160px) {
+    .top {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Information {
+        width: 350px;
+    }
+
+    .community {
+        width: 350px;
+    }
+
+}
+
+@media screen and (max-width:570px) {
+    #menu {
+        top: -30px;
+    }
+
+    #video {
+        top: -50px;
+    }
+
+    .fb-banner {
+        margin-top: -50px !important;
+    }
+}
+
+@media screen and (max-width:521px) {
+    .searchbox {
+        padding: 10px 10px !important;
+    }
+
+    .searchbox p {
+        font-family: 'Noto Sans Bengali UI';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+    }
+}
+
+
+
+@media screen and (max-width:930px) {
+    .schoolemblem {
+        width: 50px;
+        height: 50px;
+    }
+
+    .schoolname {
+        font-family: 'jsMath-cmbx10';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    .welcome {
+        font-family: 'Kanit';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 53px;
+
+    }
+
+    .menu {
+        background-color: #F0F0F0;
+    }
+
+}
+
+@media screen and (max-width:1150px) {
+    .box {
+        aspect-ratio: 1/1;
+        width: 200px;
+    }
+
+    .menu {
+        overflow-x: scroll;
+    }
+
+    .title {
+        width: fit-content;
+        position: absolute;
+        top: 30px;
+        left: 35px;
+        z-index: 2;
+    }
+}
+
+@media screen and (max-width:777px) {
+    .title {
+        width: fit-content;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        z-index: 2;
+    }
+
+    .title span {
+        margin-bottom: 5px !important;
+    }
+}
+
+@media screen and (max-width:1690px) {
+    .video {
+        position: relative;
+        /* top: -200px; */
+    }
+
+    .fb-banner {}
+}
+
+@media screen and (max-width:1630px) {
+    .video {
+        position: relative;
+        /* top: -220px; */
+    }
+}
+
+@media screen and (max-width:1520px) {
+    .video {
+        position: relative;
+        /* top: -200px; */
+    }
+
+    .menu {
+        /* margin-top: 50px; */
+    }
+}
+
+@media screen and (max-width:1250px) {
+    .video {
+        position: relative;
+        /* top: -180px; */
+    }
+
+    .menu {
+        /* margin-top: 110px; */
+    }
+}
+
+@media screen and (max-width:1890px) {
+    .largevideo {
+        width: 500px;
+        height: 400px;
+        margin-bottom: 20px;
+    }
+
+    .largevideo iframe {
+        width: 880px;
+        height: 300px;
+        margin-bottom: 25px !important;
+    }
+
+    .smallvideo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .smallvideo iframe {
+        width: 480px;
+        height: 300px;
+        margin-bottom: 25px;
+    }
+
+    .menu {
+        top: -10%;
+    }
+}
+
+@media screen and (max-width:1236px) {
+    .active {
+        display: none !important;
+    }
+
+    .second {
+        display: flex;
+    }
 }
