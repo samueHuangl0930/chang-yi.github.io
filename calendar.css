@@ -107,7 +107,7 @@ nav {
     color: black;
     font-weight: 900;
     display: flex;
-    flex-direction: column;
+    flex-direction: column;justify-content:  center;
     text-align: justify;
     margin: 0px;
     padding: 0px;
