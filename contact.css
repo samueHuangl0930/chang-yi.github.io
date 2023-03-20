@@ -25,7 +25,7 @@ html {
 }
 
 .relevant-information p {
-    font-family: 'Kanit';
+    font-family: 'Noto Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -83,16 +83,21 @@ nav {
 }
 
 .navbar-nav li:nth-child(3) a:hover {
-    color: #FECA01;
+    color: #FF9900;
 
 }
 
 .navbar-nav li:nth-child(4) a:hover {
-    color: #FE7DC9;
+    color: #FECA01;
 
 }
 
 .navbar-nav li:nth-child(5) a:hover {
+    color: #FE7DC9;
+
+}
+
+.navbar-nav li:nth-child(6) a:hover {
     color: #478DF3;
 
 }
@@ -103,19 +108,32 @@ nav {
     display: flex;
     flex-direction: column;
     text-align: justify;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
 }
 
 .navbar-brand p:nth-child(1) {
-    font-size: 25px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
     display: flex;
-    justify-content: space-around;
-    margin-bottom: 0;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    text-align: justify;
 }
 
 .navbar-brand p:nth-child(2) {
-    font-size: 15px;
-    display: flex;
-    justify-content: space-around;
+    width: auto;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 13px;
+    letter-spacing: 0.12em;
+    margin: 0px;
+    padding: 0px;
     text-align: justify;
 }
 
@@ -126,7 +144,7 @@ nav {
 }
 
 .nav-item a {
-    font-family: 'Kanit';
+    font-family: 'Noto Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -162,34 +180,63 @@ img {
     height: 120px;
 }
 
+.introduce {
+    background-color: #478DF3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.introduce p {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 53px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.ribbon {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
 .ribbon .box:nth-child(1) {
     background-color: #42DDFF;
-    width: 20%;
+
 }
 
 .ribbon .box:nth-child(2) {
     background-color: #1DCBC8;
-    width: 20%;
+
 }
 
 .ribbon .box:nth-child(3) {
-    background-color: #FECA01;
-    width: 20%;
+    background-color: #FF9900;
+
 }
 
 .ribbon .box:nth-child(4) {
-    background-color: #FE7DC9;
-    width: 20%;
+    background-color: #FECA01;
+
 }
 
 .ribbon .box:nth-child(5) {
+    background-color: #FE7DC9;
+
+}
+
+.ribbon .box:nth-child(6) {
     background-color: #478DF3;
-    width: 20%;
+
 }
 
 
 .title {
-    font-family: 'Kanit';
+    font-family: 'Noto Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 39px;
@@ -206,7 +253,7 @@ li {
 }
 
 li p {
-    font-family: 'Kanit';
+    font-family: 'Noto Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 29px;
@@ -258,7 +305,7 @@ ul li:nth-child(4) p img {
 
 .circle p {
     color: white;
-    font-family: 'Kanit';
+    font-family: 'Noto Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 23px;
@@ -350,10 +397,62 @@ footer .rectangle2 {
     top: 2093.14px;
 } */
 
+@media screen and (max-width:1100px) {
+    .introduce p {
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 53px;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        text-align: center;
+    }
 
 
+}
+
+@media screen and (max-width:860px) {
+    .introduce p {
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 53px;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:700px) {
+    .introduce p {
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 53px;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        text-align: center;
+    }
 
 
+}
+
+@media screen and (max-width:570px) {
+    .introduce p {
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px !important;
+        line-height: 53px;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        text-align: center;
+    }
+}
 
 @media (max-width: 680px) {
     .Information {

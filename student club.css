@@ -24,7 +24,7 @@ html {
 }
 
 .relevant-information p {
-    font-family: 'Kanit';
+    font-family: 'Noto Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -83,16 +83,21 @@ nav {
 }
 
 .navbar-nav li:nth-child(3) a:hover {
-    color: #FECA01;
+    color: #FF9900;
 
 }
 
 .navbar-nav li:nth-child(4) a:hover {
-    color: #FE7DC9;
+    color: #FECA01;
 
 }
 
 .navbar-nav li:nth-child(5) a:hover {
+    color: #FE7DC9;
+
+}
+
+.navbar-nav li:nth-child(6) a:hover {
     color: #478DF3;
 
 }
@@ -103,19 +108,32 @@ nav {
     display: flex;
     flex-direction: column;
     text-align: justify;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
 }
 
 .navbar-brand p:nth-child(1) {
-    font-size: 25px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
     display: flex;
-    justify-content: space-around;
-    margin-bottom: 0;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    text-align: justify;
 }
 
 .navbar-brand p:nth-child(2) {
-    font-size: 15px;
-    display: flex;
-    justify-content: space-around;
+    width: auto;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 13px;
+    letter-spacing: 0.12em;
+    margin: 0px;
+    padding: 0px;
     text-align: justify;
 }
 
@@ -126,7 +144,7 @@ nav {
 }
 
 .nav-item a {
-    font-family: 'Kanit';
+    font-family: 'Noto Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -162,29 +180,58 @@ img {
     height: 120px;
 }
 
+.introduce {
+    background-color: #FF9900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.introduce p {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 53px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.ribbon {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
 .ribbon .box:nth-child(1) {
     background-color: #42DDFF;
-    width: 20%;
+
 }
 
 .ribbon .box:nth-child(2) {
     background-color: #1DCBC8;
-    width: 20%;
+
 }
 
 .ribbon .box:nth-child(3) {
-    background-color: #FECA01;
-    width: 20%;
+    background-color: #FF9900;
+
 }
 
 .ribbon .box:nth-child(4) {
-    background-color: #FE7DC9;
-    width: 20%;
+    background-color: #FECA01;
+
 }
 
 .ribbon .box:nth-child(5) {
+    background-color: #FE7DC9;
+
+}
+
+.ribbon .box:nth-child(6) {
     background-color: #478DF3;
-    width: 20%;
+
 }
 
 .student {
@@ -193,7 +240,7 @@ img {
 
 .student p {
     min-width: 400px;
-    font-family: 'Kanit';
+    font-family: 'Noto Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 69px;
@@ -204,13 +251,49 @@ img {
 
 
 .title {
-    font-family: 'Kanit';
+    font-family: 'Noto Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 39px;
     line-height: 53px;
 }
 
+/* .card{
+    width: 462px;
+} */
+.card-block {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-block img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.card-body {
+    background-color: #FF9900;
+    height: 70px;
+}
+
+.card-text {
+    color: #FFFFFF;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+}
 
 
 
@@ -243,7 +326,7 @@ footer p {
     display: flex;
     flex-direction: row;
     color: white;
-    font-family: 'Kanit';
+    font-family: 'Noto Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -266,7 +349,7 @@ ul li:nth-child(3) img {
 
 /* footer li p {
     color: white;
-    font-family: 'Kanit';
+    font-family: 'Noto Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -286,6 +369,34 @@ ul li:nth-child(3) img {
 .community img:nth-child(3) {
     width: 33px;
     height: 33px;
+}
+
+@media screen and (max-width:1220px) {
+    .introduce p {
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 53px;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        text-align: center;
+    }
+
+
+}
+
+@media screen and (max-width:590px) {
+    .introduce p {
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px !important;
+        line-height: 53px;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width:1160px) {
@@ -309,10 +420,35 @@ ul li:nth-child(3) img {
         margin: 0 !important;
         padding: 0 !important;
     }
+
+    .introduce p {
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 53px;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width:1013px) {
     .nav-item {
         margin-right: 0px !important;
     }
+}
+
+@media screen and (max-width:790px) {
+    .introduce p {
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 53px;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        text-align: center;
+    }
+
 }
