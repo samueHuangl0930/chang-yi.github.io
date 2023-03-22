@@ -327,6 +327,11 @@ button img {
     line-height: 24px;
 }
 
+.comment {
+    text-align: center;
+    font-size: 18px;
+}
+
 .tabulation {
     width: 410px;
 }
@@ -522,4 +527,44 @@ ul li:nth-child(3) img {
         text-align: center;
     }
 
+}
+
+@media screen and (max-width:500px) {
+    .relevant-information {
+        padding: 0px !important;
+    }
+
+    .introduce p {
+        font-size: 20px;
+        width: 250px;
+        line-height: 30px;
+        word-wrap: break-word;
+    }
+
+    .title {
+        font-size: 35px;
+    }
+
+    .text p {
+        padding: 0px 2px;
+        font-size: 35px;
+    }
+
+    .comment {
+        font-size: 15px !important;
+    }
+
+ 
+
+    .tabulation {
+        width: 340px !important;
+    }
+
+    .tabulation p {
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 66px;
+    }
 }

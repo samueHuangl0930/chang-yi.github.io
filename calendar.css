@@ -447,3 +447,17 @@ ul li:nth-child(3) img {
     }
 
 }
+
+@media screen and (max-width:500px) {
+    .relevant-information {
+        padding: 0px !important;
+    }
+
+    .introduce p {
+        font-size: 20px;
+        width: 250px;
+        line-height: 30px;
+        word-wrap: break-word;
+    }
+
+}

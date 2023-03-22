@@ -302,6 +302,7 @@ ul li:nth-child(4) p img {
     width: 195px;
     /* border-radius: 115.5px; */
     border-radius: 50%;
+    text-decoration: none;
 }
 
 .circle p {
@@ -480,5 +481,33 @@ footer .rectangle2 {
 @media screen and (max-width:1013px) {
     .nav-item {
         margin-right: 0px !important;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .relevant-information {
+        padding: 0px !important;
+    }
+
+    .introduce p {
+        font-size: 20px;
+        width: 250px;
+        line-height: 30px;
+        word-wrap: break-word;
+    }
+
+   ul{
+        width: 250px;
+    }
+
+    li p {
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        text-indent: -45px;
+        text-align: left;
+        letter-spacing: 1px;
     }
 }

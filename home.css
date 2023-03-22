@@ -327,19 +327,6 @@ ul li:nth-child(3) img {
 
 }
 
-@media screen and (max-width:570px) {
-    #menu {
-        top: -30px;
-    }
-
-    #video {
-        top: -50px;
-    }
-
-    .fb-banner {
-        margin-top: -50px !important;
-    }
-}
 
 @media screen and (max-width:521px) {
     .searchbox {
@@ -495,4 +482,49 @@ ul li:nth-child(3) img {
     .second {
         display: flex;
     }
+}
+
+@media screen and (max-width:570px) {
+
+
+    #video {
+        top: -50px;
+    }
+
+    .fb-banner {
+        margin-top: -50px !important;
+        padding: 0px 15px !important;
+    }
+    .searchbox p{
+        font-size: 13px;
+    }
+
+    .largevideo {
+        width: 500px;
+        height: 400px;
+        margin-bottom: 20px;
+    }
+
+    .largevideo iframe {
+        width: 880px;
+        height: 300px;
+        margin-bottom: 25px !important;
+        box-shadow: none !important;
+
+    }
+
+    .smallvideo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .smallvideo iframe {
+        width: auto !important;
+        height: auto !important;
+        margin-bottom: 25px;
+    }
+
 }

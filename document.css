@@ -181,7 +181,7 @@ img {
 }
 
 .introduce {
-    background-color:#FECA01;
+    background-color: #FECA01;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -426,4 +426,23 @@ ul li:nth-child(3) img {
         color: #FFFFFF;
         text-align: center;
     }
+}
+
+@media screen and (max-width:500px) {
+    .relevant-information {
+        padding: 0px !important;
+    }
+
+    .introduce p {
+        font-size: 20px;
+        width: 250px;
+        line-height: 30px;
+        word-wrap: break-word;
+    }
+
+    .PDF-area {
+        height: 500px;
+        overflow-y: scroll;
+    }
+
 }
