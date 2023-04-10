@@ -490,13 +490,12 @@ footer .rectangle2 {
     }
 
     .introduce p {
-        font-size: 20px;
-        width: 250px;
+        font-size: 12px;
         line-height: 30px;
         word-wrap: break-word;
     }
 
-   ul{
+    .contact ul {
         width: 250px;
     }
 

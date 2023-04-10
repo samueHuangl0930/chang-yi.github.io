@@ -265,7 +265,7 @@ footer p {
     font-family: 'Noto Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 24px;
     text-align: justify;
     /* background-color: #00E3E3; */
@@ -437,14 +437,6 @@ ul li:nth-child(3) img {
         position: relative;
         /* top: -220px; */
     }
-
-    .box img {
-        height: 90px !important;
-    }
-
-    .box p {
-        font-size: 25px;
-    }
 }
 
 @media screen and (max-width:1520px) {
@@ -465,8 +457,6 @@ ul li:nth-child(3) img {
         width: 700px;
         height: 400px;
     }
-
-
 }
 
 @media screen and (max-width:1250px) {

@@ -393,7 +393,7 @@ footer p {
     font-family: 'Noto Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 24px;
     text-align: justify;
     /* background-color: #00E3E3; */
@@ -450,6 +450,13 @@ ul li:nth-child(3) img {
         text-align: center;
     }
 
+    .text {
+        background-size: auto;
+    }
+
+    .text p {
+        font-size: 35px !important;
+    }
 }
 
 @media screen and (max-width:570px) {
@@ -463,6 +470,11 @@ ul li:nth-child(3) img {
         color: #FFFFFF;
         text-align: center;
     }
+
+    .text p {
+        font-size: 28px !important;
+    }
+
 }
 
 @media screen and (max-width:1160px) {
@@ -535,8 +547,8 @@ ul li:nth-child(3) img {
     }
 
     .introduce p {
-        font-size: 20px;
-        width: 250px;
+        font-size: 12px;
+        width: 100%;
         line-height: 30px;
         word-wrap: break-word;
     }
@@ -547,14 +559,15 @@ ul li:nth-child(3) img {
 
     .text p {
         padding: 0px 2px;
-        font-size: 35px;
+        font-size: 20px;
+        line-height: 35px;
     }
 
     .comment {
         font-size: 15px !important;
     }
 
- 
+
 
     .tabulation {
         width: 340px !important;

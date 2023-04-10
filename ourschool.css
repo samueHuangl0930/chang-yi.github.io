@@ -449,7 +449,7 @@ footer p {
     font-family: 'Noto Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 24px;
     text-align: justify;
     /* background-color: #00E3E3; */
@@ -614,7 +614,7 @@ ul li:nth-child(3) img {
     }
 
     .introduce p {
-        font-size: 20px;
+        font-size: 12px;
         width: 250px;
         line-height: 30px;
         word-wrap: break-word;
